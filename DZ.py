@@ -7,7 +7,7 @@ def dz2(bot, chat_id):
     bot.send_message(chat_id, text="ДОДЕЛАТЬ!")
 # -----------------------------------------------------------------------
 def dz3(bot, chat_id):
-    bot.send_message(chat_id, text="ДОДЕЛАТЬ!")
+    bot.send_message(chat_id, text="ДОДЕЛАТЬ!!")
 # -----------------------------------------------------------------------
 def dz4(bot, chat_id):
     bot.send_message(chat_id, text="ДОДЕЛАТЬ!")

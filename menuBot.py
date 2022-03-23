@@ -39,7 +39,7 @@ class Menu:
         return menu
 
 
-m_main = Menu("Главное меню", buttons=["Развлечения", "Игры", "ДЗ", "Помощь"])
+m_main = Menu("Главное меню", buttons=["Развлечения", "Игры", "ДЗ", "Помощь!"])
 
 m_games = Menu("Игры", buttons=["Камень, ножницы, бумага", "Игра в 21", "Угадай кто?", "Выход"], parent=m_main)
 m_game_21 = Menu("Игра в 21", buttons=["Карту!", "Стоп!", "Выход"], parent=m_games, action="game_21")

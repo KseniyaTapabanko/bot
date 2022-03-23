@@ -124,7 +124,7 @@ class Game21:
 
         if self.score > 21:
             self.status = False
-            text_game = "Очков: " + str(self.score) + " ВЫ ПРОИГРАЛИ!"
+            text_game = "Очков: " + str(self.score) + " ВЫ ПРОИГРАЛИ!!"
 
         elif self.score == 21:
             self.status = True

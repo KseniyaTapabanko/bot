@@ -43,7 +43,7 @@ class film:
         infoFilm["Обложка_url"] = images[0]
 
         details = result_find.findAll('td')
-        infoFilm["Год"] = details[0].contents[1].strip()
+        infoFilm["Год!"] = details[0].contents[1].strip()
         infoFilm["Страна"] = details[1].contents[1].strip()
         infoFilm["Жанр"] = details[2].contents[1].strip()
         infoFilm["Продолжительность"] = details[3].contents[1].strip()

@@ -11,7 +11,7 @@ import BotGames  # бот-игры, файл BotGames.py
 from menuBot import Menu  # в этом модуле есть код, создающий экземпляры классов описывающих моё меню
 import DZ  # домашнее задание от первого урока
 
-bot = telebot.TeleBot('5207758409:AAGJ5MVwNBkinpzp6PDCyOVNCxODByUsO-4')  # Создаем экземпляр бота
+bot = telebot.TeleBot('5122273738:AAEoLv-gA0ZQrkUhVbCU3TutDLGDXtKV-wU')  # Создаем экземпляр бота
 game21 = None  # класс игры в 21, экземпляр создаём только при начале игры
 
 
@@ -20,7 +20,7 @@ game21 = None  # класс игры в 21, экземпляр создаём т
 @bot.message_handler(commands="start")
 def command(message, res=False):
     txt_message = f"Привет, {message.from_user.first_name}! Я тестовый бот для курса программирования на языке Python"
-    bot.send_message(message.chat.id, text=txt_message, reply_markup=Menu.getMenu("Главное меню").markup)
+    bot.send_message(message.chat.id, text=txt_message, reply_markup=Menu.getMenu("Главное меню!").markup)
 
 
 # -----------------------------------------------------------------------
